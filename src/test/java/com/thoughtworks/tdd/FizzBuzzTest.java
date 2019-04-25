@@ -29,5 +29,8 @@ public class FizzBuzzTest {
     public void should_return_BuzzWhizz_when_number_is_multiple_of_5_and_7(){
         assertEquals(fizzBuzz.getFizzBuzz(70), "BuzzWhizz");
     }
-
+    @Test
+    public void should_return_FizzBuzzWhizz_when_number_is_multiple_of_3_and_5_and_7(){
+        assertEquals(fizzBuzz.getFizzBuzz(105), "FizzBuzzWhizz");
+    }
 }
